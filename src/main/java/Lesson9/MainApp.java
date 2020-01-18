@@ -12,12 +12,16 @@ public class MainApp {
 //        UnitConverter.kilosToPounds(12);
 //        UnitConverter.PoundsToKilos(12);
 
-        Person person = new Person("Jan", "Kowalski", "89021476971", LocalDate.of(1989, 2, 14));
-        Person person2 = new Person("Brajan", "Janowski", "10221476971", LocalDate.of(2010, 2, 14));
-        Person person3 = new Person("Brajan", "Janowski", "10221476971", LocalDate.of(1989, 2, 14));
-        AgeValidator.isAdult(person);
-        AgeValidator.isAdult(person2);
-        AgeValidator.isAdult(person3);
-    }
+//        Person person = new Person("Jan", "Kowalski", "89021476971", LocalDate.of(1989, 2, 14));
+//        Person person2 = new Person("Brajan", "Janowski", "10221476971", LocalDate.of(2010, 2, 14));
+//        Person person3 = new Person("Brajan", "Janowski", "10221476971", LocalDate.of(1989, 2, 14));
+//        AgeValidator.isAdult(person);
+//        AgeValidator.isAdult(person2);
+//        AgeValidator.isAdult(person3);
+//        System.out.println(PseudoCodeExerciseImpl.HighValue(1, 3, 4, 6, 8, 9, 10));
 
+        System.out.println(GCD.GCd(12, 36));
+
+
+    }
 }
