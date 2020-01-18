@@ -22,6 +22,6 @@ public class MainApp {
 
         System.out.println(GCD.GCd(12, 36));
 
-
+         System.out.println(GCD.factorial(3));
     }
 }

@@ -1,6 +1,6 @@
 package Lesson9;
 
-public class GCD {
+public class GCD<m> {
     public static int GCd(int a, int b) {
 
 //        BigInteger b1 = BigInteger.valueOf(a);
@@ -14,5 +14,14 @@ public class GCD {
         }
         return GCd(b, a % b);
     }
+
+
+    public static int factorial (int n ) {
+        if (n == 1){
+            return 1;
+    }
+    return n * factorial(n-1);
+    }
 }
+
 
