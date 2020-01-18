@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ac94cb4-4f14-4a09-a281-df31db4cd170" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/Programowanie1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pseudocode" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson9/AgeValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson9/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Programowanie 1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Programowanie1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Lesson9/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lesson9/MainApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Lesson9/MainApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Lesson9/MainApp.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Lesson9/UnitConverter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Lesson9/UnitConverter.class" afterDir="false" />
     </list>
@@ -41,11 +45,16 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../gdanskDemografics" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\szkolenie\Documents\Programowanie1" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="MainApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -57,53 +66,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
-      <module name="Programowanie1" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
-      <module name="Programowanie1" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -144,53 +106,85 @@
       <option name="project" value="LOCAL" />
       <updated>1578824405168</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Initial commit and some converters.">
+      <created>1578840196246</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1578840196246</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit." />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit." />
+    <MESSAGE value="Initial commit and some converters." />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit and some converters." />
   </component>
   <component name="WindowStateProjectService">
     <state x="392" y="93" key="#Project_Structure" timestamp="1578833580683">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="392" y="93" key="#Project_Structure/0.0.1600.860@0.0.1600.860" timestamp="1578833580683" />
-    <state x="431" y="29" key="CommitChangelistDialog2" timestamp="1578824404371">
+    <state x="552" y="234" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1579344151800">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="431" y="29" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1578824404371" />
-    <state x="580" y="189" key="FileChooserDialogImpl" timestamp="1578824699275">
+    <state x="552" y="234" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1600.860@0.0.1600.860" timestamp="1579344151800" />
+    <state x="605" y="147" key="#com.intellij.ide.util.MemberChooser" timestamp="1579343296175">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="580" y="189" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1578824699275" />
-    <state width="1540" height="221" key="GridCell.Tab.0.bottom" timestamp="1578833420040">
+    <state x="605" y="147" key="#com.intellij.ide.util.MemberChooser/0.0.1600.860@0.0.1600.860" timestamp="1579343296175" />
+    <state x="431" y="29" key="CommitChangelistDialog2" timestamp="1578840195011">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1540" height="221" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1578833420040" />
-    <state width="1540" height="221" key="GridCell.Tab.0.center" timestamp="1578833420040">
+    <state x="431" y="29" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1578840195011" />
+    <state x="580" y="189" key="FileChooserDialogImpl" timestamp="1579340447893">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1540" height="221" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1578833420040" />
-    <state width="1540" height="221" key="GridCell.Tab.0.left" timestamp="1578833420040">
+    <state x="580" y="189" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1579340447893" />
+    <state width="1540" height="218" key="GridCell.Tab.0.bottom" timestamp="1579343829777">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1540" height="221" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1578833420040" />
-    <state width="1540" height="221" key="GridCell.Tab.0.right" timestamp="1578833420040">
+    <state width="1540" height="218" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1579343829777" />
+    <state width="1540" height="218" key="GridCell.Tab.0.center" timestamp="1579343829777">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1540" height="221" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1578833420040" />
-    <state x="280" y="9" key="SettingsEditor" timestamp="1578822123070">
+    <state width="1540" height="218" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1579343829777" />
+    <state width="1540" height="218" key="GridCell.Tab.0.left" timestamp="1579343829777">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="280" y="9" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1578822123070" />
-    <state x="392" y="167" key="Vcs.Push.Dialog.v2" timestamp="1578840164743">
+    <state width="1540" height="218" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1579343829777" />
+    <state width="1540" height="218" key="GridCell.Tab.0.right" timestamp="1579343829777">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="392" y="167" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1578840164743" />
+    <state width="1540" height="218" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1579343829777" />
+    <state x="330" y="86" key="Maven.ArtifactSearchDialog" timestamp="1579338017125">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="330" y="86" key="Maven.ArtifactSearchDialog/0.0.1600.860@0.0.1600.860" timestamp="1579338017125" />
+    <state x="280" y="9" key="SettingsEditor" timestamp="1579343170436">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="280" y="9" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1579343170436" />
+    <state x="392" y="167" key="Vcs.Push.Dialog.v2" timestamp="1578840206793">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="392" y="167" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1578840206793" />
+    <state x="496" y="255" key="com.intellij.ide.util.TipDialog" timestamp="1579335028479">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="496" y="255" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1579335028479" />
     <state x="182" y="136" key="new project wizard" timestamp="1578826179818">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="182" y="136" key="new project wizard/0.0.1600.860@0.0.1600.860" timestamp="1578826179818" />
+    <state x="456" y="197" key="run.anything.popup" timestamp="1579337164123">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="456" y="197" key="run.anything.popup/0.0.1600.860@0.0.1600.860" timestamp="1579337164123" />
+    <state x="463" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1579342888126">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="463" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1600.860@0.0.1600.860" timestamp="1579342888126" />
   </component>
 </project>
