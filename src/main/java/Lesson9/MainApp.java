@@ -1,6 +1,7 @@
 package Lesson9;
 
 
+import java.sql.SQLOutput;
 import java.time.LocalDate;
 
 public class MainApp {
@@ -22,6 +23,30 @@ public class MainApp {
 
         System.out.println(GCD.GCd(12, 36));
 
-         System.out.println(GCD.factorial(3));
+         System.out.println(GCD.factorial(19));  //powyżej 19 wynik niewiarygodny!
+
+        String first = "Hi, I'm first";
+        String second = "Hi, I'm second";
+        String third = "Hi, I'm third";
+        StackImpl stack = new StackImpl();
+        StackImpl secondStack = new StackImpl();
+        stack.push(first);
+        stack.push(second);
+        stack.push(third);
+
+        Object peakResult = stack.peak();
+        System.out.println((String) peakResult);
+
+       Object popResult = stack.pop ();
+        Object popResultTwo = stack.pop();
+
+        System.out.println((String) popResult);
+        System.out.println((String) popResultTwo);
+
+
+        stack.push(100);
+        stack.push(102);
+        stack.push(103);
+
     }
 }

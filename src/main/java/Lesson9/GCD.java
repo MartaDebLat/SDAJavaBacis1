@@ -17,6 +17,13 @@ public class GCD<m> {
 
 
     public static int factorial (int n ) {
+//
+//        private static BigInteger factorial(BigInteger a){
+//            if (a.equals(new BigInteger("1"))){
+//                return new BigInteger("1");
+//            }
+//            return a.multiply(factorial(a.subtract(new BigInteger("1"))));
+
         if (n == 1){
             return 1;
     }
