@@ -12,4 +12,12 @@ public class Employee {
     public void giveRaise(int amount) {
         salary = salary + amount;
     }
+
+      public String toString() {
+        return "Employee{" +
+                "name='" + name + '\'' +
+                ", salary=" + salary +
+                '}';
+    }
 }
+
