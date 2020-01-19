@@ -37,7 +37,5 @@ public class PensionAnalyzerApp {
             return i.nextInt(employeesToFired.size());
         }
 
-
-
     }
 
