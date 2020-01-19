@@ -1,4 +1,4 @@
-package Lesson9;
+package Lesson9_10;
 
 public class GCD<m> {
     public static int GCd(int a, int b) {

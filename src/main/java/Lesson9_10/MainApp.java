@@ -1,8 +1,5 @@
-package Lesson9;
+package Lesson9_10;
 
-
-import java.sql.SQLOutput;
-import java.time.LocalDate;
 
 public class MainApp {
     public static void main(String[] args) {

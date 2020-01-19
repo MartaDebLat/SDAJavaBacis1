@@ -1,4 +1,4 @@
-package Lesson9;
+package Lesson9_10;
 
 public class StackImpl implements StackInterface {
 
