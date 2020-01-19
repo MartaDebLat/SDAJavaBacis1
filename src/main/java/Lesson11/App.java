@@ -7,14 +7,15 @@ public class App {
 
     public static void main(String[] args) {
         Map<String, Employee> mapOfEmployee = new HashMap<>();
-        Employee Cris = new Employee("Cris", 15000);
-        Employee Kate = new Employee("Kate", 25000);
-        Employee Sam = new Employee("Sam", 20000);
-        mapOfEmployee.put("70kg",Cris);
+        Employee Cris = new Employee("Cris","123456",15000);
+        Employee Kate = new Employee("Kate", "987654", 25000);
+        Employee Sam = new Employee("Sam","147852", 20000);
+        mapOfEmployee.put("70kg", Cris);
         mapOfEmployee.put("20s", Kate);
         mapOfEmployee.put("54x", Sam);
 
-        Employee employee = mapOfEmployee.get("20s");
+        Employee employee = mapOfEmployee.get("70kg");
+
         System.out.println(employee);
 
 
@@ -22,26 +23,26 @@ public class App {
 
     public static void setExample (String[] args) {
         Set<Employee> setOfEmployees = new HashSet<>();
-        Employee kristoff = new Employee("Kristof", 15000);
-        Employee kristoff2 = new Employee("Kristof", 15000);
-        setOfEmployees.add(kristoff);
-        setOfEmployees.add(kristoff);
-        setOfEmployees.add(kristoff2);
+        Employee Cris = new Employee("Cris","123456",15000);
+        Employee CopyCris = new Employee("Cris","123456",15000);
+        setOfEmployees.add(Cris);
+        setOfEmployees.add(CopyCris);
+
         for (Employee singleEmployee : setOfEmployees) {
             System.out.println(singleEmployee);
         }
     }
     public static void arrayListExample () {
-
         String name = "Anna";
-        Employee Cris = new Employee("Cris", 15000);
-        Employee Kate = new Employee("Kate", 25000);
-        Employee Sam = new Employee("Sam", 20000);
+        Employee Cris = new Employee("Cris","123456",15000);
+        Employee Kate = new Employee("Kate", "987654", 25000);
+        Employee Sam = new Employee("Sam","147852", 20000);
         List<Employee> employeeList = new ArrayList<>();
         employeeList.add(Cris);
         employeeList.add(Kate);
         employeeList.add(Sam);
         employeeList.add(Sam);
+
         Employee employee = employeeList.get(0);
 
         for (Employee singleEmployee : employeeList) {
@@ -50,6 +51,7 @@ public class App {
         }
         for (Employee singleEmloyee : employeeList) {
             System.out.println(singleEmloyee);
+
         }
     }
 }
@@ -66,7 +68,7 @@ public class App {
 
 //        int someRandomNumber = 4;
 //        Employee anna = new Employee("anna", 20000);
-//        Employee cris = new Employee("cris", 15000);
+//        Employee Cris = new Employee("Cris",123456,15000 
 //        Employee[] workers = {anna, cris};
 //
 //        for (Employee singleEmployee : workers) {
