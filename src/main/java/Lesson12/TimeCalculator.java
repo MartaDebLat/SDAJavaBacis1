@@ -28,16 +28,15 @@ public class TimeCalculator {
     }
 
     public void minutesToEndOfClass() throws InterruptedException {
-
-        LocalTime presenTime = LocalTime.now();
-
+        long result;
         LocalTime FinishTime = LocalTime.of(16, 00, 00);
-
-        long result = ChronoUnit.MINUTES.between(presenTime, FinishTime);
-        while (result > 0) {
+        do {
+            LocalTime presenTime = LocalTime.now();
+            result = ChronoUnit.MINUTES.between(presenTime, FinishTime);
             System.out.println("It's just " + result + " to go to the car!");
             Thread.sleep(60000);
         }
+        while (result >= 0);
 
     }
 }
