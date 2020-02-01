@@ -33,7 +33,7 @@ public class TimeCalculator {
         do {
             LocalTime presenTime = LocalTime.now();
             result = ChronoUnit.MINUTES.between(presenTime, FinishTime);
-            System.out.println("It's just " + result + " to go to the car!");
+            System.out.println("It's just " + result + " minutes to go to the car!");
             Thread.sleep(60000);
         }
         while (result >= 0);
