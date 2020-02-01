@@ -1,9 +1,6 @@
 package Lesson11;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 public class TextAnalizer {
 
@@ -24,10 +21,10 @@ public class TextAnalizer {
         for (char letter : alphabet
         ) {
             characterStringMap.put(letter, new ArrayList<>());
-            characterStringMap.put('a', "Alice");
-            characterStringMap.put('h', "has");
-            characterStringMap.put('t', "two");
-            characterStringMap.put('c', "cats.");
+            characterStringMap.put('a', Collections.singletonList("Alice"));
+            characterStringMap.put('h', Collections.singletonList("has"));
+   //         characterStringMap.put('t', "two");
+   //         characterStringMap.put('c', "cats.");
         }
         return characterStringMap;
     }
