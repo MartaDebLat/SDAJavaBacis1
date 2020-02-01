@@ -3,11 +3,12 @@ package Lesson12;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class Main {
 
-    public static void main(String[] args) throws InterruptedException {
+    public static void main(String[] args){ //throws InterruptedException {
 
 //        TimeCalculator timeCalculator = new TimeCalculator();
 //        TimeCalculator.daysToChrist(LocalDate.of(2020, 7, 22));
@@ -31,20 +32,24 @@ public class Main {
 //        LifeSimulator.simulate(listOfProgrammers, 5);
 
 
-        MyQueue <String> myStringQueue = new MyQueue();
+//        MyQueue <String> myStringQueue = new MyQueue();
 //        myStringQueue.offer("Hello");
 //        myStringQueue.offer(23); - rozpoznaje ze to nie string
-        MyQueue <Integer> myIntigerQueue = new MyQueue<>();
-        myStringQueue.offer("Hello");
-        myStringQueue.offer(" is it me");
-        myStringQueue.offer("you are looking for?");
-        myStringQueue.offer("NO!");
-        myStringQueue.printAll();
-        myStringQueue.pool();
-        myStringQueue.pool();
-        System.out.println("Object that had been removed: ");
-        myStringQueue.printAll();
+//        MyQueue <Integer> myIntigerQueue = new MyQueue<>();
+//        myStringQueue.offer("Hello");
+//        myStringQueue.offer(" is it me");
+//        myStringQueue.offer("you are looking for?");
+//        myStringQueue.offer("NO!");
+//        myStringQueue.printAll();
+//        myStringQueue.pool();
+//        myStringQueue.pool();
+//        System.out.println("Object that had been removed: ");
+//        myStringQueue.printAll();
+//
 
+        int [] sortTab = {3,2,4,4,1,9};
+BubbleSort.sort(sortTab);
+        System.out.println(Arrays.toString(sortTab));
 
     }
 }
