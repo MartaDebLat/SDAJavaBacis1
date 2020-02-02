@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ac94cb4-4f14-4a09-a281-df31db4cd170" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson12/BubbleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson13/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson13/QuickSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Lesson12/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lesson12/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +54,7 @@
       <recent name="C:\Users\szkolenie\Documents\Programowanie1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.Main (1)">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lesson11.App" />
       <module name="Programowanie1" />
@@ -68,12 +68,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson12.Main" />
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson13.Main" />
       <module name="Programowanie1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lesson12.*" />
+          <option name="PATTERN" value="Lesson13.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,12 +81,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson9_10.MainApp" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson12.Main" />
       <module name="Programowanie1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lesson9_10.*" />
+          <option name="PATTERN" value="Lesson12.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,11 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.TextAnalizer" />
         <item itemvalue="Application.PensionAnalyzerApp" />
         <item itemvalue="Application.App" />
-        <item itemvalue="Application.MainApp" />
       </list>
     </recent_temporary>
   </component>
@@ -251,7 +251,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580565209273</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="sorting">
+      <created>1580569327037</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1580569327037</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -269,7 +276,8 @@
     <MESSAGE value="Games with Time travel :)" />
     <MESSAGE value="counting time to the end of" />
     <MESSAGE value="Set, Queque, FIFO etc" />
-    <option name="LAST_COMMIT_MESSAGE" value="Set, Queque, FIFO etc" />
+    <MESSAGE value="sorting" />
+    <option name="LAST_COMMIT_MESSAGE" value="sorting" />
   </component>
   <component name="WindowStateProjectService">
     <state x="392" y="93" key="#Project_Structure" timestamp="1578833580683">
@@ -292,30 +300,30 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="530" y="178" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1600.860@0.0.1600.860" timestamp="1579445210764" />
-    <state x="400" y="4" key="CommitChangelistDialog2" timestamp="1580565208390">
+    <state x="400" y="4" key="CommitChangelistDialog2" timestamp="1580569326196">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="400" y="4" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1580565208390" />
+    <state x="400" y="4" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1580569326196" />
     <state x="580" y="189" key="FileChooserDialogImpl" timestamp="1579357035544">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="580" y="189" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1579357035544" />
-    <state width="1540" height="215" key="GridCell.Tab.0.bottom" timestamp="1580569099324">
+    <state width="1557" height="215" key="GridCell.Tab.0.bottom" timestamp="1580635950476">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1540" height="215" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1580569099324" />
-    <state width="1540" height="215" key="GridCell.Tab.0.center" timestamp="1580569099324">
+    <state width="1557" height="215" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1580635950476" />
+    <state width="1557" height="215" key="GridCell.Tab.0.center" timestamp="1580635950476">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1540" height="215" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1580569099324" />
-    <state width="1540" height="215" key="GridCell.Tab.0.left" timestamp="1580569099324">
+    <state width="1557" height="215" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1580635950476" />
+    <state width="1557" height="215" key="GridCell.Tab.0.left" timestamp="1580635950476">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1540" height="215" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1580569099324" />
-    <state width="1540" height="215" key="GridCell.Tab.0.right" timestamp="1580569099324">
+    <state width="1557" height="215" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1580635950476" />
+    <state width="1557" height="215" key="GridCell.Tab.0.right" timestamp="1580635950476">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1540" height="215" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1580569099324" />
+    <state width="1557" height="215" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1580635950476" />
     <state width="1540" height="272" key="GridCell.Tab.1.bottom" timestamp="1579445503530">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -344,10 +352,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="280" y="9" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1579426724380" />
-    <state x="392" y="167" key="Vcs.Push.Dialog.v2" timestamp="1580565227060">
+    <state x="392" y="167" key="Vcs.Push.Dialog.v2" timestamp="1580569336988">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="392" y="167" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1580565227060" />
+    <state x="392" y="167" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1580569336988" />
     <state x="496" y="255" key="com.intellij.ide.util.TipDialog" timestamp="1580546559155">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -360,10 +368,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="182" y="136" key="new project wizard/0.0.1600.860@0.0.1600.860" timestamp="1578826179818" />
-    <state x="506" y="50" key="refactoring.ChangeSignatureDialog" timestamp="1579353251808">
+    <state x="506" y="50" key="refactoring.ChangeSignatureDialog" timestamp="1580635583567">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="506" y="50" key="refactoring.ChangeSignatureDialog/0.0.1600.860@0.0.1600.860" timestamp="1579353251808" />
+    <state x="506" y="50" key="refactoring.ChangeSignatureDialog/0.0.1600.860@0.0.1600.860" timestamp="1580635583567" />
     <state x="456" y="197" key="run.anything.popup" timestamp="1580557240582">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
