@@ -10,9 +10,9 @@ public class Main {
 
     public static void main(String[] args) {
         BinarySearch ob = new BinarySearch();
-        int arr[] = {2, 3, 4, 10, 40};
+        int arr[] = {2, 3, 4,7, 10,29,36,37,40,100,345};
         int n = arr.length;
-        int x = 4 ;
+        int x = 29 ;
         int result = ob.binarySearch(arr, 0, n - 1, x);
         if (result == -1)
             System.out.println("No data");

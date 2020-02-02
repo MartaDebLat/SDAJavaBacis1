@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ac94cb4-4f14-4a09-a281-df31db4cd170" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson13/BinarySearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson13/LinearSearchUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson13/SoftDrink.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Lesson13/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lesson13/Main.java" afterDir="false" />
     </list>
@@ -274,7 +271,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580650962749</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="binnary search">
+      <created>1580655854332</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1580655854332</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -295,7 +299,8 @@
     <MESSAGE value="sorting" />
     <MESSAGE value="Quick sorting" />
     <MESSAGE value="Sort by compare to" />
-    <option name="LAST_COMMIT_MESSAGE" value="Sort by compare to" />
+    <MESSAGE value="binnary search" />
+    <option name="LAST_COMMIT_MESSAGE" value="binnary search" />
   </component>
   <component name="WindowStateProjectService">
     <state x="392" y="93" key="#Project_Structure" timestamp="1578833580683">
@@ -318,30 +323,30 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="530" y="178" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1600.860@0.0.1600.860" timestamp="1579445210764" />
-    <state x="400" y="4" key="CommitChangelistDialog2" timestamp="1580650961875">
+    <state x="400" y="4" key="CommitChangelistDialog2" timestamp="1580655853509">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="400" y="4" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1580650961875" />
+    <state x="400" y="4" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1580655853509" />
     <state x="580" y="189" key="FileChooserDialogImpl" timestamp="1580636991327">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="580" y="189" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1580636991327" />
-    <state width="1557" height="215" key="GridCell.Tab.0.bottom" timestamp="1580655732437">
+    <state width="1557" height="215" key="GridCell.Tab.0.bottom" timestamp="1580660543024">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="215" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1580655732437" />
-    <state width="1557" height="215" key="GridCell.Tab.0.center" timestamp="1580655732437">
+    <state width="1557" height="215" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1580660543024" />
+    <state width="1557" height="215" key="GridCell.Tab.0.center" timestamp="1580660543023">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="215" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1580655732437" />
-    <state width="1557" height="215" key="GridCell.Tab.0.left" timestamp="1580655732437">
+    <state width="1557" height="215" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1580660543023" />
+    <state width="1557" height="215" key="GridCell.Tab.0.left" timestamp="1580660543023">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="215" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1580655732437" />
-    <state width="1557" height="215" key="GridCell.Tab.0.right" timestamp="1580655732437">
+    <state width="1557" height="215" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1580660543023" />
+    <state width="1557" height="215" key="GridCell.Tab.0.right" timestamp="1580660543024">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="215" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1580655732437" />
+    <state width="1557" height="215" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1580660543023" />
     <state width="1557" height="275" key="GridCell.Tab.1.bottom" timestamp="1580655544251">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -370,10 +375,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="280" y="9" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1580655176230" />
-    <state x="392" y="167" key="Vcs.Push.Dialog.v2" timestamp="1580650971608">
+    <state x="392" y="167" key="Vcs.Push.Dialog.v2" timestamp="1580655878528">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="392" y="167" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1580650971608" />
+    <state x="392" y="167" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1580655878528" />
     <state x="496" y="255" key="com.intellij.ide.util.TipDialog" timestamp="1580546559155">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
