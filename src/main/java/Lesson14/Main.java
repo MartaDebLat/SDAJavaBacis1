@@ -29,18 +29,18 @@ public class Main {
 //
 //        System.out.println(upperCaseWords);
 
-        listIntigers = IntList.intsToStream();
-
-    int sum = listIntigers.stream()
-            .mapToInt(i->i)
-            .sum();
-        System.out.println("Sum of elements is "+ sum);
-        OptionalDouble average = listIntigers.stream()
-                .mapToInt ( i->i)
-                .average();
-
-        double averageAsDouble = average.getAsDouble() ;
-        System.out.println( "average of elements is: " + averageAsDouble);
+//        listIntigers = IntList.intsToStream();
+//
+//    int sum = listIntigers.stream()
+//            .mapToInt(i->i)
+//            .sum();
+//        System.out.println("Sum of elements is "+ sum);
+//        OptionalDouble average = listIntigers.stream()
+//                .mapToInt ( i->i)
+//                .average();
+//
+//        double averageAsDouble = average.getAsDouble() ;
+//        System.out.println( "average of elements is: " + averageAsDouble);
 
 
 
