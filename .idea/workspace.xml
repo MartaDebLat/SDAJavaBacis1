@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ac94cb4-4f14-4a09-a281-df31db4cd170" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson14/IntList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Lesson14/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lesson14/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -300,7 +298,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581154975477</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Int as Int / int as Double">
+      <created>1581157944276</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1581157944276</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -325,7 +330,8 @@
     <MESSAGE value="binnary search final" />
     <MESSAGE value="Lambda words." />
     <MESSAGE value="WordsProvider." />
-    <option name="LAST_COMMIT_MESSAGE" value="WordsProvider." />
+    <MESSAGE value="Int as Int / int as Double" />
+    <option name="LAST_COMMIT_MESSAGE" value="Int as Int / int as Double" />
   </component>
   <component name="WindowStateProjectService">
     <state x="392" y="93" key="#Project_Structure" timestamp="1578833580683">
@@ -348,10 +354,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="530" y="178" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1600.860@0.0.1600.860" timestamp="1579445210764" />
-    <state x="392" y="7" key="CommitChangelistDialog2" timestamp="1581154974510">
+    <state x="392" y="7" key="CommitChangelistDialog2" timestamp="1581157943463">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="392" y="7" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1581154974510" />
+    <state x="392" y="7" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1581157943463" />
     <state x="580" y="189" key="FileChooserDialogImpl" timestamp="1580660642107">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -400,10 +406,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="280" y="9" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1580655176230" />
-    <state x="392" y="167" key="Vcs.Push.Dialog.v2" timestamp="1581154985991">
+    <state x="392" y="167" key="Vcs.Push.Dialog.v2" timestamp="1581157957651">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="392" y="167" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1581154985991" />
+    <state x="392" y="167" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1581157957651" />
     <state x="496" y="255" key="com.intellij.ide.util.TipDialog" timestamp="1580546559155">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
